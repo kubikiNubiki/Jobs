@@ -1,0 +1,60 @@
+.container{
+  height:625px;
+  width: 100%;
+  background-image:url(../img/back.jpg);
+  background-repeat: no-repeat;   
+  background-size: 1400px 660px;
+  opacity: 3;
+}
+
+.main-header{
+    width:100%;
+    height: 80px;
+  
+}
+#search{
+    position: relative;
+    left: 540px;
+    background-color: dark;
+    height: 40px;
+    width: 300px;
+    border-radius: 25px;
+    color:black;
+    text-transform:uppercase;
+}
+#search:hover{
+    border-radius:1px;
+    width: 600px;
+    left: 415px;
+}
+.main-section{
+    display: block;
+    position: relative;
+    left: 75px;
+    width: 383px;
+    height: 392px;
+    border-radius:30px;
+    border:2px solid black;
+    z-index: 3;
+    background-color: #E5CCFF;
+
+}
+#h-logo{
+  position: absolute;
+  top: 0px; 
+  right:1   px;
+  width: 90px;
+  height: 80px;
+  transform: translateY(2);
+}
+h1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size:29px;
+  height: 75px;
+}
+.text{
+  text-align: center;
+  font-size:25px;
+}
+
